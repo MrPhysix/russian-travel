@@ -1,0 +1,40 @@
+.cover {
+  position: relative;
+}
+
+
+.cover:hover .cover__background::before {
+  opacity: .8;
+  cursor: pointer;
+}
+
+/*(max-width: 425px) ||
+(min-width: 426px) and (max-width: 768px) ||
+(min-width: 769px) and (max-width: 1023px) ||
+(min-width: 1024px) and (max-width: 1280px) ||
+(min-width: 1280px) ||*/
+
+@media screen and (max-width: 767px) {
+  .cover {
+    margin: 65px 0;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .cover {
+    margin-top: 90px;
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover {
+    margin: 92px 0;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1281px) {
+  .cover {
+    padding: 0 48px;
+  }
+}

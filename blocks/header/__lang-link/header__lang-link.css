@@ -1,0 +1,21 @@
+.header__lang-link {
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  font-family: inherit;
+  text-align: right;
+
+  font-weight: normal;
+  color: #fff;
+  font-size: calc(18px + (24 - 18) * (100vw - 320px) / (1280 - 320));
+  line-height: calc(20px + (28 - 20) * (100vw - 320px) / (1280 - 320));
+}
+
+.header__lang-link:nth-child(n+2) {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 767px) {
+  .header__lang-link {
+    font-size: 24px;
+  }
+}

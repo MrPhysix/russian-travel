@@ -1,0 +1,28 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+
+  margin: calc(16px + (28 - 16) * (100vw - 320px) / (1280 - 320)) calc(16px + (48 - 16) * (100vw - 320px) / (1280 - 320)) 0;
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    margin: 16px 16px 0;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .header {
+    margin: 28px 24px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    margin: 28px 48px 0;
+  }
+}

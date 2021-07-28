@@ -1,0 +1,24 @@
+.intro__list-text {
+  padding: 0;
+  margin: 0;
+
+  font-family: inherit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.5;
+  /* or 150% */
+  color: #fff;
+}
+
+.intro__list-text p {
+  /*мне пришлось-не сбрасывалось выше*/
+  margin: 0;
+}
+
+
+@media screen and (min-width: 1440px) {
+  .into__text {
+    font-size: calc(12px + (16 - 12) * (100vw - 1280px) / (1920 - 1280));
+  }
+}

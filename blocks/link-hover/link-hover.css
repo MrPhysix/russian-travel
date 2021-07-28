@@ -1,0 +1,8 @@
+.link-hover {
+  -webkit-transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
+}
+
+.link-hover:hover {
+  opacity: 80%;
+}
