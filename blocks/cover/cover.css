@@ -1,10 +1,6 @@
 .cover {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 
   background-image: url('../../images/cover-trains.jpg');
@@ -73,5 +69,6 @@
 @media screen and (min-width: 1279px) {
   .cover {
     min-height: 740px;
+    margin: 92px 48px;
   }
 }
