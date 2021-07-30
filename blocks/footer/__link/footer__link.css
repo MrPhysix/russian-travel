@@ -1,5 +1,7 @@
 .footer__link {
+  padding: 0;
   text-decoration: none;
+  list-style-type: none;
   color: #fff;
 
   font-family: inherit;

@@ -10,6 +10,7 @@
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__logo/header__logo.css');
 @import url('../blocks/header/__lang-link/header__lang-link.css');
+@import url('../blocks/header/__lang-link/_active/header__lang-link_active.css');
 @import url('../blocks/header/__lang-switch/header__lang-switch.css');
 
 /*lead*/
@@ -24,10 +25,9 @@
 @import url('../blocks/intro/__title/intro__title.css');
 @import url('../blocks/intro/__text/intro__text.css');
 @import url('../blocks/intro/__list/intro__list.css');
+@import url('../blocks/intro/__span-accent/intro__span-accent.css');
 @import url('../blocks/intro/__list-text/intro__list-text.css');
 
-/*span*/
-@import url('../blocks/span-accent/span-accent.css');
 
 /*photo-grid*/
 @import url('../blocks/photo-grid/photo-grid.css');
@@ -35,13 +35,13 @@
 
 /*places*/
 @import url('../blocks/places/places.css');
+@import url('../blocks/places/__ul/places__ul.css');
 
 /*place*/
 @import url('../blocks/place/place.css');
 @import url('../blocks/place/__image/place__image.css');
 @import url('../blocks/place/__paragraph/place__paragraph.css');
 @import url('../blocks/place/__title/place__title.css');
-@import url('../blocks/paragraphs/paragraphs.css');
 
 /*website*/
 @import url('../blocks/website/website.css');
@@ -65,21 +65,7 @@
 @import url('../blocks/footer/__links/footer__links.css');
 
 
-/*
+
 * {
   outline: 1px solid red;
-}
-*/
-
-
-html {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-*,
-*::after,
-*::before {
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
 }
