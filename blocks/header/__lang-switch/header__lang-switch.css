@@ -1,7 +1,12 @@
 .header__lang-switch {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+
   align-self: flex-end;
   padding-bottom: 6px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 18px;
+
 }
