@@ -55,6 +55,9 @@
 @import url('../blocks/cover/__text/cover__text.css');
 @import url('../blocks/cover/__link/cover__link.css');
 
+/*link*/
+@import url('../blocks/link/link.css');
+
 /*link-hover*/
 @import url('../blocks/link-hover/link-hover.css');
 
@@ -63,8 +66,6 @@
 @import url('../blocks/footer/__copyright/footer__copyright.css');
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__links/footer__links.css');
-
-
 
 /*
 * {
