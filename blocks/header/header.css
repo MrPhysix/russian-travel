@@ -6,7 +6,7 @@
   -ms-flex-pack: justify;
   justify-content: space-between;
 
-  margin: calc(16px + (28 - 16) * (100vw - 320px) / (1280 - 320)) calc(16px + (48 - 16) * (100vw - 320px) / (1280 - 320)) 0;
+  margin: 28px 48px 0;
 }
 
 @media screen and (max-width: 425px) {
