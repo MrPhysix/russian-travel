@@ -4,6 +4,7 @@
   position: relative;
 
   margin: 0 auto;
+  margin-top: 32px;
 
   max-width: 360px;
 
@@ -12,7 +13,6 @@
   font-weight: normal;
 
   text-align: center;
-  margin-top: 32px;
   line-height: 1.22;
 }
 
